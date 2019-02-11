@@ -6,7 +6,7 @@ from datetime import datetime
 
 
 class BookModel(Base):
-    __tablename__ = 'bookmoel'
+    __tablename__ = 'bookmodel'
     id = Column(Integer, primary_key=True)
     title = Column(String(128), unique=True)
     url = Column(String(128), unique=True)
